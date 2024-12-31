@@ -1,0 +1,59 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: beige;
+}
+
+div {
+    background-color: black;
+}
+
+nav {
+    background-color: #777;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    //text-align: center;
+    color: blue;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #3f0404;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav li {
+        //flex: 1 1 0;
+    }
+
+
+
+
+
+
+
+}
