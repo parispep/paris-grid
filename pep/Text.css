@@ -1,0 +1,98 @@
+h1 {
+  font-family: Tahoma;
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.big {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sales {
+  color: red;
+  margin-top: 1;
+}
+
+.ht {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.pro {
+  margin-top: 0;
+  font-family: verdana;
+  color: rgb(131, 116, 116);
+  margin-left: 10px;
+}
+
+.course {
+  font-family: verdana;
+  font-size: 15px;
+  font-weight: bold;
+  width: 370px;
+  margin-left: 10px;
+}
+
+.started {
+  background-color: rgb(25, 153, 25);
+  color: white;
+  height: 36px;
+  width: 115px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.container {
+  background-color: red;
+}
+
+.shop {
+  font-family: Arial;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 0;
+
+}
+
+.apple {
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(51, 44, 44);
+  font-weight: bold;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.learn {
+  text-align: center;
+  color: rgb(57, 57, 221);
+  font-family: arial;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.learn:hover {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: aqua;
+}
