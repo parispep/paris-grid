@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 240px;
+      border: 2px solid gray;
+      padding: 15px;
+      border-radius: 7px;
+    }
+
+    .top {
+      text-align: center;
+    }
+
+    .middle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+    }
+
+    #left,
+    #right {
+      width: 60px;
+      padding: 3px 2px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+
+    }
+
+    .buttons button {
+      width: 37px;
+      height: 37px;
+      background-color: teal;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .last {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+    }
+
+    #result,
+    #result2 {
+      width: 35px;
+      height: 35px;
+      border: 2px solid teal;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <h1>Simple Calculator</h1>
+      <hr />
+
+    </div>
+    <div class="middle">
+      <input id="left" type="number">
+      <input id="right" type="number">
+    </div>
+    <div class="buttons">
+      <button onclick="
+      add()
+      ">+</button>
+
+      <button>-</button>
+      <button>*</button>
+      <button>/</button>
+      <button>%</button>
+    </div>
+    <div class="last">
+      <h3>Result input</h3>
+      <input id="result" type="text" readonly>
+    </div>
+    <div class="last">
+      <h3>Result value</h3>
+      <div id="result2"></div>
+    </div>
+
+
+
+  </div>
+</body>
+
+<script>
+  const left = document.getElementById('left');
+  const right = document.getElementById('right');
+  const result = document.getElementById('result');
+  const result2 = document.getElementById('result2');
+
+  function add() {
+    let a = parseInt(left.value);
+    let b = parseInt(right.value);
+    let c = (a + b);
+
+    result.value = c;
+    result2.innerHTML = c;
+
+    console.log(c);
+  }
+</script>
+
+</html>
