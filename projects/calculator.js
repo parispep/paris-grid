@@ -1,4 +1,4 @@
-// alert("Welcome to my third  Calculator Project!");
+alert("Welcome to my third simple Calculator Project!");
 
 function calculate() {
   let num1 = parseInt(document.getElementById("num1").value);
