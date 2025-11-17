@@ -5,7 +5,7 @@ function calculate() {
   let num2 = parseInt(document.getElementById("num2").value);
 
   if (isNaN(num1) || isNaN(num2)) {
-    alert("please enter valid numbers!!")
+    alert("please enter valid numbers!")
     return;
   }
 
